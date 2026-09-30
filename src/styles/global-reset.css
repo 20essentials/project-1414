@@ -1,15 +1,20 @@
 :root {
-  --gradient: linear-gradient(to bottom, #00f, transparent);
+  --gradient: linear-gradient(to bottom, transparent, transparent);
+  --sb-track-color: transparent;
+  --sb-thumb-color: var(--gradient);
+  --sb-size: 0vmax;
 }
-
-body {
+/* :root {
+  --gradient: linear-gradient(to bottom, #00f, transparent);
   --sb-track-color: #000;
   --sb-thumb-color: var(--gradient);
   --sb-size: 0.7vmax;
+} */
+
+body {
   min-height: 100vh;
   height: max-content;
   width: 100%;
-  overflow-x: hidden;
   display: flex;
   flex-direction: column;
 }

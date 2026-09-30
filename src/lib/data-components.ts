@@ -1,3 +1,4 @@
+import { AIBranchDemo } from "@/components/smoothui/ai-branch/ai-branch-demo";
 import AgentAvatars from "@/components/smoothui/agent-avatar/agent-avatars";
 import { AnimatedOTPInputDemo } from "@/components/smoothui/animated-o-t-p-input/animated-o-t-p-input-demo";
 import { BasicAccordion } from "@/components/smoothui/basic-accordion";
@@ -8,6 +9,11 @@ export const components: {
   Component: ComponentType;
   url: string;
 }[] = [
+  {
+    title: "AI Branch",
+    Component: AIBranchDemo,
+    url: "https://smoothui.dev/docs/components/ai-branch",
+  },
   {
     title: "Animated OTP Input",
     Component: AnimatedOTPInputDemo,
