@@ -19,7 +19,14 @@ export type AgentAvatarsProps = {
   className?: string;
 };
 
-const DEFAULT_SEEDS = ["smoothui", "opencode", "bunny", "halo", "nova", "pixel"];
+const DEFAULT_SEEDS = [
+  "smoothui",
+  "opencode",
+  "bunny",
+  "halo",
+  "nova",
+  "pixel",
+];
 
 const AgentAvatars = ({
   seeds,
@@ -33,21 +40,24 @@ const AgentAvatars = ({
   const list =
     seeds ??
     (count > 0
-      ? Array.from({ length: count }, (_, index) => DEFAULT_SEEDS[index % DEFAULT_SEEDS.length])
+      ? Array.from(
+          { length: count },
+          (_, index) => DEFAULT_SEEDS[index % DEFAULT_SEEDS.length],
+        )
       : []);
 
   return (
     <div
       className={cn(
         "flex items-center",
-        direction === "row" ? "-space-x-3" : "-space-y-3 flex-col",
-        className
+        direction === "row" ? "-space-x-3" : "flex-col -space-y-3",
+        className,
       )}
     >
       {list.map((seed, index) => (
         <AgentAvatar
           animated={animated}
-          className="ring-2 ring-black rounded-full"
+          className="rounded-full ring-2 ring-black"
           key={`${seed}-${index}`}
           seed={seed}
           size={size}

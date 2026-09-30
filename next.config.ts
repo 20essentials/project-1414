@@ -1,10 +1,10 @@
-import type { NextConfig } from 'next';
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   typescript: {
-    ignoreBuildErrors: true
+    ignoreBuildErrors: true,
   },
-  reactCompiler: true
+  reactCompiler: true,
 };
 
 export default nextConfig;

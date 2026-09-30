@@ -207,8 +207,8 @@ const AgentAvatar = ({
             90,
             Math.max(
               20,
-              (l + pulse + breatheOffset + wave + sparkle) * cell.brightness
-            )
+              (l + pulse + breatheOffset + wave + sparkle) * cell.brightness,
+            ),
           );
           const finalSat = Math.min(100, s + 5);
 

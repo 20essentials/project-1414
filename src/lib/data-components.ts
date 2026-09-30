@@ -1,6 +1,6 @@
-import AgentAvatars from '@/components/smoothui/agent-avatar/agent-avatars';
-import { BasicAccordion } from '@/components/smoothui/basic-accordion';
-import type { ComponentType } from 'react';
+import AgentAvatars from "@/components/smoothui/agent-avatar/agent-avatars";
+import { BasicAccordion } from "@/components/smoothui/basic-accordion";
+import type { ComponentType } from "react";
 
 export const components: {
   title: string;
@@ -8,13 +8,13 @@ export const components: {
   url: string;
 }[] = [
   {
-    title: 'Basic Accordion',
+    title: "Basic Accordion",
     Component: BasicAccordion,
-    url: 'https://smoothui.dev/docs/components/accordion'
+    url: "https://smoothui.dev/docs/components/accordion",
   },
   {
-    title: 'Agent Avatar',
+    title: "Agent Avatar",
     Component: AgentAvatars,
-    url: 'https://smoothui.dev/docs/components/agent-avatar'
+    url: "https://smoothui.dev/docs/components/agent-avatar",
   },
 ];

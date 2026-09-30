@@ -13,12 +13,12 @@ const eslintConfig = defineConfig([
     "build/**",
     "next-env.d.ts",
   ]),
-    {
+  {
     rules: {
-      '@typescript-eslint/ban-ts-comment': 'off',
-      '@next/next/no-img-element': 'off'
-    }
-  }
+      "@typescript-eslint/ban-ts-comment": "off",
+      "@next/next/no-img-element": "off",
+    },
+  },
 ]);
 
 export default eslintConfig;
