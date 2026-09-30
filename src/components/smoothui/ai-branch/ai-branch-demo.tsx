@@ -49,7 +49,7 @@ export function AIBranchDemo({
 }: AIBranchDemoProps) {
   return (
     <div
-      className={cn("flex min-h-96 w-full flex-col justify-center", className)}
+      className={cn("flex w-full flex-col justify-center", className)}
     >
       <AIBranch defaultBranch={defaultBranch} onBranchChange={onBranchChange}>
         <AIBranchMessages>

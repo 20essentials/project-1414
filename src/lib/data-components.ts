@@ -1,6 +1,7 @@
 import { AIBranchDemo } from "@/components/smoothui/ai-branch/ai-branch-demo";
 import AgentAvatars from "@/components/smoothui/agent-avatar/agent-avatars";
 import { AnimatedOTPInputDemo } from "@/components/smoothui/animated-o-t-p-input/animated-o-t-p-input-demo";
+import { AnimatedProgressBarDemo } from "@/components/smoothui/animated-progress-bar/animated-progress-bar-demo";
 import { BasicAccordion } from "@/components/smoothui/basic-accordion";
 import type { ComponentType } from "react";
 
@@ -18,6 +19,11 @@ export const components: {
     title: "Animated OTP Input",
     Component: AnimatedOTPInputDemo,
     url: "https://smoothui.dev/docs/components/animated-o-t-p-input",
+  },
+  {
+    title: "Animated Progress Bar",
+    Component: AnimatedProgressBarDemo,
+    url: "https://smoothui.dev/docs/components/animated-progress-bar",
   },
   {
     title: "Basic Accordion",
