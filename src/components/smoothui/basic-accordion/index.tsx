@@ -4,7 +4,6 @@ import { ChevronDown } from "lucide-react";
 import { motion, useReducedMotion } from "motion/react";
 import { useState } from "react";
 import { defaultAccordionItems } from "./default-data";
-
 const CHEVRON_ROTATION_DEGREES = 180;
 const CHEVRON_ANIMATION_DURATION = 0.2;
 
