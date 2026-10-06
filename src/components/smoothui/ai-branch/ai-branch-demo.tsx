@@ -48,9 +48,7 @@ export function AIBranchDemo({
   className,
 }: AIBranchDemoProps) {
   return (
-    <div
-      className={cn("flex w-full flex-col justify-center", className)}
-    >
+    <div className={cn("flex w-full flex-col justify-center", className)}>
       <AIBranch defaultBranch={defaultBranch} onBranchChange={onBranchChange}>
         <AIBranchMessages>
           {turns.map((turn) => (
