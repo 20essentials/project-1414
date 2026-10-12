@@ -5,6 +5,7 @@ import { AnimatedProgressBarDemo } from "@/components/smoothui/animated-progress
 import AnimatedToggleDemo from "@/components/smoothui/animated-toggle/animated-toggle-demo";
 import AnimatedTooltipDemo from "@/components/smoothui/animated-tooltip/animated-tooltip-demo";
 import { BasicAccordion } from "@/components/smoothui/basic-accordion";
+import { BasicDropdownDemo } from "@/components/smoothui/basic-dropdown/basic-dropdown-demo";
 import { BasicModalDemo } from "@/components/smoothui/basic-modal/basic-modal-demo";
 import type { ComponentType } from "react";
 
@@ -42,6 +43,11 @@ export const components: {
     title: "Basic Accordion",
     Component: BasicAccordion,
     url: "https://smoothui.dev/docs/components/accordion",
+  },
+  {
+    title: "Basic Dropdown",
+    Component: BasicDropdownDemo,
+    url: "https://smoothui.dev/docs/components/basic-dropdown",
   },
   {
     title: "Basic Modal",
