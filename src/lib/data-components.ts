@@ -4,6 +4,7 @@ import { AnimatedOTPInputDemo } from "@/components/smoothui/animated-o-t-p-input
 import { AnimatedProgressBarDemo } from "@/components/smoothui/animated-progress-bar/animated-progress-bar-demo";
 import AnimatedToggleDemo from "@/components/smoothui/animated-toggle/animated-toggle-demo";
 import AnimatedTooltipDemo from "@/components/smoothui/animated-tooltip/animated-tooltip-demo";
+import { AppDownloadStackDemo } from "@/components/smoothui/app-download-stack/app-download-stack-demo";
 import { BasicAccordion } from "@/components/smoothui/basic-accordion";
 import { BasicDropdownDemo } from "@/components/smoothui/basic-dropdown/basic-dropdown-demo";
 import { BasicModalDemo } from "@/components/smoothui/basic-modal/basic-modal-demo";
@@ -38,6 +39,11 @@ export const components: {
     title: "Animated Tooltip",
     Component: AnimatedTooltipDemo,
     url: "https://smoothui.dev/docs/components/animated-tooltip",
+  },
+  {
+    title: "App Download Stack",
+    Component: AppDownloadStackDemo,
+    url: "https://smoothui.dev/docs/components/app-download-stack",
   },
   {
     title: "Basic Accordion",
