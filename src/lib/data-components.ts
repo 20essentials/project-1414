@@ -8,6 +8,7 @@ import { AppDownloadStackDemo } from "@/components/smoothui/app-download-stack/a
 import { BasicAccordion } from "@/components/smoothui/basic-accordion";
 import { BasicDropdownDemo } from "@/components/smoothui/basic-dropdown/basic-dropdown-demo";
 import { BasicModalDemo } from "@/components/smoothui/basic-modal/basic-modal-demo";
+import CheckboxDemo from "@/components/smoothui/checkbox/checkbox-demo";
 import type { ComponentType } from "react";
 
 export const components: {
@@ -64,5 +65,10 @@ export const components: {
     title: "Agent Avatar",
     Component: AgentAvatars,
     url: "https://smoothui.dev/docs/components/agent-avatar",
+  },
+  {
+    title: "Checkbox",
+    Component: CheckboxDemo,
+    url: "https://smoothui.dev/docs/primitives/checkbox",
   },
 ];
