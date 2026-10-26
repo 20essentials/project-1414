@@ -9,6 +9,7 @@ import { BasicAccordion } from "@/components/smoothui/basic-accordion";
 import { BasicDropdownDemo } from "@/components/smoothui/basic-dropdown/basic-dropdown-demo";
 import { BasicModalDemo } from "@/components/smoothui/basic-modal/basic-modal-demo";
 import CheckboxDemo from "@/components/smoothui/checkbox/checkbox-demo";
+import DigitRollDemo from "@/components/smoothui/digit-roll/digit-roll-demo";
 import type { ComponentType } from "react";
 
 export const components: {
@@ -70,5 +71,10 @@ export const components: {
     title: "Checkbox",
     Component: CheckboxDemo,
     url: "https://smoothui.dev/docs/primitives/checkbox",
+  },
+  {
+    title: "Digit Roll",
+    Component: DigitRollDemo,
+    url: "https://smoothui.dev/docs/components/digit-roll",
   },
 ];
