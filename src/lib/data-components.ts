@@ -5,6 +5,7 @@ import { AnimatedProgressBarDemo } from "@/components/smoothui/animated-progress
 import AnimatedToggleDemo from "@/components/smoothui/animated-toggle/animated-toggle-demo";
 import AnimatedTooltipDemo from "@/components/smoothui/animated-tooltip/animated-tooltip-demo";
 import { AppDownloadStackDemo } from "@/components/smoothui/app-download-stack/app-download-stack-demo";
+import AppleInvitesDemo from "@/components/smoothui/apple-invites/apple-invites-demo";
 import { BasicAccordion } from "@/components/smoothui/basic-accordion";
 import { BasicDropdownDemo } from "@/components/smoothui/basic-dropdown/basic-dropdown-demo";
 import { BasicModalDemo } from "@/components/smoothui/basic-modal/basic-modal-demo";
@@ -46,6 +47,11 @@ export const components: {
     title: "App Download Stack",
     Component: AppDownloadStackDemo,
     url: "https://smoothui.dev/docs/components/app-download-stack",
+  },
+  {
+    title: "Apple Invites",
+    Component: AppleInvitesDemo,
+    url: "https://smoothui.dev/docs/components/apple-invites",
   },
   {
     title: "Basic Accordion",

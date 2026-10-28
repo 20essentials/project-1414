@@ -235,3 +235,8 @@
 @utility state-transition {
   @apply transition-[background-color,border-color,color,box-shadow] duration-150 ease-out motion-reduce:transition-none;
 }
+
+@utility gradient-mask-t-0 {
+  -webkit-mask-image: linear-gradient(#0000, #000);
+  mask-image: linear-gradient(#0000, #000);
+}
