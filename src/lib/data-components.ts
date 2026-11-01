@@ -10,6 +10,7 @@ import { BasicAccordion } from "@/components/smoothui/basic-accordion";
 import { BasicDropdownDemo } from "@/components/smoothui/basic-dropdown/basic-dropdown-demo";
 import { BasicModalDemo } from "@/components/smoothui/basic-modal/basic-modal-demo";
 import CheckboxDemo from "@/components/smoothui/checkbox/checkbox-demo";
+import ClipCornersButtonDemo from "@/components/smoothui/clip-corners-button/clip-corners-button-demo";
 import { CursorFollowDemo } from "@/components/smoothui/cursor-follow/cursor-follow-demo";
 import DigitRollDemo from "@/components/smoothui/digit-roll/digit-roll-demo";
 import type { ComponentType } from "react";
@@ -78,6 +79,11 @@ export const components: {
     title: "Checkbox",
     Component: CheckboxDemo,
     url: "https://smoothui.dev/docs/primitives/checkbox",
+  },
+  {
+    title: "Clip Corners Button",
+    Component: ClipCornersButtonDemo,
+    url: "https://smoothui.dev/docs/components/clip-corners-button",
   },
   {
     title: "Cursor Follow",
