@@ -13,6 +13,7 @@ import CheckboxDemo from "@/components/smoothui/checkbox/checkbox-demo";
 import ClipCornersButtonDemo from "@/components/smoothui/clip-corners-button/clip-corners-button-demo";
 import { CursorFollowDemo } from "@/components/smoothui/cursor-follow/cursor-follow-demo";
 import DigitRollDemo from "@/components/smoothui/digit-roll/digit-roll-demo";
+import { DynamicIslandDemo } from "@/components/smoothui/dynamic-island/dynamic-island-demo";
 import type { ComponentType } from "react";
 
 export const components: {
@@ -94,5 +95,10 @@ export const components: {
     title: "Digit Roll",
     Component: DigitRollDemo,
     url: "https://smoothui.dev/docs/components/digit-roll",
+  },
+  {
+    title: "Dynamic Island",
+    Component: DynamicIslandDemo,
+    url: "https://smoothui.dev/docs/components/dynamic-island",
   },
 ];
