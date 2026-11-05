@@ -14,6 +14,7 @@ import ClipCornersButtonDemo from "@/components/smoothui/clip-corners-button/cli
 import { CursorFollowDemo } from "@/components/smoothui/cursor-follow/cursor-follow-demo";
 import DigitRollDemo from "@/components/smoothui/digit-roll/digit-roll-demo";
 import { DynamicIslandDemo } from "@/components/smoothui/dynamic-island/dynamic-island-demo";
+import { GitHubStarsAnimationDemo } from "@/components/smoothui/github-stars-animation/github-stars-animation-demo";
 import type { ComponentType } from "react";
 
 export const components: {
@@ -100,5 +101,10 @@ export const components: {
     title: "Dynamic Island",
     Component: DynamicIslandDemo,
     url: "https://smoothui.dev/docs/components/dynamic-island",
+  },
+  {
+    title: "GitHub Stars Animation",
+    Component: GitHubStarsAnimationDemo,
+    url: "https://smoothui.dev/docs/components/github-stars-animation",
   },
 ];
