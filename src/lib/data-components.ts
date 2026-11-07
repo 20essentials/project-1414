@@ -15,6 +15,7 @@ import { CursorFollowDemo } from "@/components/smoothui/cursor-follow/cursor-fol
 import DigitRollDemo from "@/components/smoothui/digit-roll/digit-roll-demo";
 import { DynamicIslandDemo } from "@/components/smoothui/dynamic-island/dynamic-island-demo";
 import { GitHubStarsAnimationDemo } from "@/components/smoothui/github-stars-animation/github-stars-animation-demo";
+import { InfiniteSliderDemo } from "@/components/smoothui/infinite-slider/infinite-slider-demo";
 import type { ComponentType } from "react";
 
 export const components: {
@@ -106,5 +107,10 @@ export const components: {
     title: "GitHub Stars Animation",
     Component: GitHubStarsAnimationDemo,
     url: "https://smoothui.dev/docs/components/github-stars-animation",
+  },
+  {
+    title: "Infinite Slider",
+    Component: InfiniteSliderDemo,
+    url: "https://smoothui.dev/docs/components/infinite-slider",
   },
 ];
