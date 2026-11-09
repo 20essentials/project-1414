@@ -13,6 +13,7 @@ import CheckboxDemo from "@/components/smoothui/checkbox/checkbox-demo";
 import ClipCornersButtonDemo from "@/components/smoothui/clip-corners-button/clip-corners-button-demo";
 import { CursorFollowDemo } from "@/components/smoothui/cursor-follow/cursor-follow-demo";
 import DigitRollDemo from "@/components/smoothui/digit-roll/digit-roll-demo";
+import { DialogDemo } from "@/components/smoothui/dialog/dialog-demo";
 import { DynamicIslandDemo } from "@/components/smoothui/dynamic-island/dynamic-island-demo";
 import { GitHubStarsAnimationDemo } from "@/components/smoothui/github-stars-animation/github-stars-animation-demo";
 import { InfiniteSliderDemo } from "@/components/smoothui/infinite-slider/infinite-slider-demo";
@@ -97,6 +98,11 @@ export const components: {
     title: "Digit Roll",
     Component: DigitRollDemo,
     url: "https://smoothui.dev/docs/components/digit-roll",
+  },
+  {
+    title: "Dialog",
+    Component: DialogDemo,
+    url: "https://smoothui.dev/docs/primitives/dialog",
   },
   {
     title: "Dynamic Island",
