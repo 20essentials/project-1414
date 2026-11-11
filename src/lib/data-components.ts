@@ -16,6 +16,7 @@ import DigitRollDemo from "@/components/smoothui/digit-roll/digit-roll-demo";
 import { DialogDemo } from "@/components/smoothui/dialog/dialog-demo";
 import { DynamicIslandDemo } from "@/components/smoothui/dynamic-island/dynamic-island-demo";
 import { GitHubStarsAnimationDemo } from "@/components/smoothui/github-stars-animation/github-stars-animation-demo";
+import GlowHoverCardDemo from "@/components/smoothui/glow-hover-card/glow-hover-card-demo";
 import { InfiniteSliderDemo } from "@/components/smoothui/infinite-slider/infinite-slider-demo";
 import type { ComponentType } from "react";
 
@@ -113,6 +114,11 @@ export const components: {
     title: "GitHub Stars Animation",
     Component: GitHubStarsAnimationDemo,
     url: "https://smoothui.dev/docs/components/github-stars-animation",
+  },
+  {
+    title: "Glow Hover Cards",
+    Component: GlowHoverCardDemo,
+    url: "https://smoothui.dev/docs/components/glow-hover-card",
   },
   {
     title: "Infinite Slider",
