@@ -11,6 +11,7 @@ import { BasicDropdownDemo } from "@/components/smoothui/basic-dropdown/basic-dr
 import { BasicModalDemo } from "@/components/smoothui/basic-modal/basic-modal-demo";
 import CheckboxDemo from "@/components/smoothui/checkbox/checkbox-demo";
 import ClipCornersButtonDemo from "@/components/smoothui/clip-corners-button/clip-corners-button-demo";
+import CountBadgeDemo from "@/components/smoothui/count-badge/count-badge-demo";
 import { CursorFollowDemo } from "@/components/smoothui/cursor-follow/cursor-follow-demo";
 import DigitRollDemo from "@/components/smoothui/digit-roll/digit-roll-demo";
 import { DialogDemo } from "@/components/smoothui/dialog/dialog-demo";
@@ -89,6 +90,11 @@ export const components: {
     title: "Clip Corners Button",
     Component: ClipCornersButtonDemo,
     url: "https://smoothui.dev/docs/components/clip-corners-button",
+  },
+  {
+    title: "Count Badge",
+    Component: CountBadgeDemo,
+    url: "https://smoothui.dev/docs/components/count-badge",
   },
   {
     title: "Cursor Follow",
