@@ -20,6 +20,7 @@ import { GitHubStarsAnimationDemo } from "@/components/smoothui/github-stars-ani
 import GlowHoverCardDemo from "@/components/smoothui/glow-hover-card/glow-hover-card-demo";
 import { InfiniteSliderDemo } from "@/components/smoothui/infinite-slider/infinite-slider-demo";
 import { PowerOffSlideDemo } from "@/components/smoothui/power-off-slide/power-off-slide-demo";
+import { ReviewsCarouselDemo } from "@/components/smoothui/reviews-carousel/reviews-carousel-demo";
 import type { ComponentType } from "react";
 
 export const components: {
@@ -136,5 +137,10 @@ export const components: {
     title: "Power Off Slide",
     Component: PowerOffSlideDemo,
     url: "https://smoothui.dev/docs/components/power-off-slide",
+  },
+  {
+    title: "Reviews Carousel",
+    Component: ReviewsCarouselDemo,
+    url: "https://smoothui.dev/docs/components/reviews-carousel",
   },
 ];
