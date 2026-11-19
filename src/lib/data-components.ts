@@ -19,6 +19,7 @@ import { DynamicIslandDemo } from "@/components/smoothui/dynamic-island/dynamic-
 import { GitHubStarsAnimationDemo } from "@/components/smoothui/github-stars-animation/github-stars-animation-demo";
 import GlowHoverCardDemo from "@/components/smoothui/glow-hover-card/glow-hover-card-demo";
 import { InfiniteSliderDemo } from "@/components/smoothui/infinite-slider/infinite-slider-demo";
+import { InteractiveImageSelectorDemo } from "@/components/smoothui/interactive-image-selector/interactive-image-selector-demo";
 import { PowerOffSlideDemo } from "@/components/smoothui/power-off-slide/power-off-slide-demo";
 import { ReviewsCarouselDemo } from "@/components/smoothui/reviews-carousel/reviews-carousel-demo";
 import type { ComponentType } from "react";
@@ -132,6 +133,11 @@ export const components: {
     title: "Infinite Slider",
     Component: InfiniteSliderDemo,
     url: "https://smoothui.dev/docs/components/infinite-slider",
+  },
+  {
+    title: "Interactive Image Selector",
+    Component: InteractiveImageSelectorDemo,
+    url: "https://smoothui.dev/docs/components/interactive-image-selector",
   },
   {
     title: "Power Off Slide",
