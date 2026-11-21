@@ -13,6 +13,7 @@ import CheckboxDemo from "@/components/smoothui/checkbox/checkbox-demo";
 import ClipCornersButtonDemo from "@/components/smoothui/clip-corners-button/clip-corners-button-demo";
 import CountBadgeDemo from "@/components/smoothui/count-badge/count-badge-demo";
 import { CursorFollowDemo } from "@/components/smoothui/cursor-follow/cursor-follow-demo";
+import CountryPickerDemo from "@/components/smoothui/country-picker/country-picker-demo";
 import DigitRollDemo from "@/components/smoothui/digit-roll/digit-roll-demo";
 import { DialogDemo } from "@/components/smoothui/dialog/dialog-demo";
 import { DynamicIslandDemo } from "@/components/smoothui/dynamic-island/dynamic-island-demo";
@@ -103,6 +104,11 @@ export const components: {
     title: "Cursor Follow",
     Component: CursorFollowDemo,
     url: "https://smoothui.dev/docs/components/cursor-follow",
+  },
+  {
+    title: "Country Picker",
+    Component: CountryPickerDemo,
+    url: "https://smoothui.dev/docs/components/country-picker",
   },
   {
     title: "Digit Roll",
