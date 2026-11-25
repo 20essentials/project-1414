@@ -23,6 +23,7 @@ import { InfiniteSliderDemo } from "@/components/smoothui/infinite-slider/infini
 import { InteractiveImageSelectorDemo } from "@/components/smoothui/interactive-image-selector/interactive-image-selector-demo";
 import { PowerOffSlideDemo } from "@/components/smoothui/power-off-slide/power-off-slide-demo";
 import { ReviewsCarouselDemo } from "@/components/smoothui/reviews-carousel/reviews-carousel-demo";
+import SelectDemo from "@/components/smoothui/select/select-demo";
 import type { ComponentType } from "react";
 
 export const components: {
@@ -154,5 +155,10 @@ export const components: {
     title: "Reviews Carousel",
     Component: ReviewsCarouselDemo,
     url: "https://smoothui.dev/docs/components/reviews-carousel",
+  },
+  {
+    title: "Select",
+    Component: SelectDemo,
+    url: "https://smoothui.dev/docs/primitives/select",
   },
 ];
