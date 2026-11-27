@@ -22,6 +22,7 @@ import GlowHoverCardDemo from "@/components/smoothui/glow-hover-card/glow-hover-
 import { InfiniteSliderDemo } from "@/components/smoothui/infinite-slider/infinite-slider-demo";
 import { InteractiveImageSelectorDemo } from "@/components/smoothui/interactive-image-selector/interactive-image-selector-demo";
 import { PowerOffSlideDemo } from "@/components/smoothui/power-off-slide/power-off-slide-demo";
+import { PriceFlowDemo } from "@/components/smoothui/price-flow/price-flow-demo";
 import { ReviewsCarouselDemo } from "@/components/smoothui/reviews-carousel/reviews-carousel-demo";
 import SelectDemo from "@/components/smoothui/select/select-demo";
 import type { ComponentType } from "react";
@@ -150,6 +151,11 @@ export const components: {
     title: "Power Off Slide",
     Component: PowerOffSlideDemo,
     url: "https://smoothui.dev/docs/components/power-off-slide",
+  },
+  {
+    title: "Price Flow",
+    Component: PriceFlowDemo,
+    url: "https://smoothui.dev/docs/components/price-flow",
   },
   {
     title: "Reviews Carousel",
